@@ -4,6 +4,7 @@ console.log("Hello World!")
 
 console.log("Miss Kitty")
 
+//Variables are Containers for Storing Data
 // Variables (for our scope var and let is the same)
 // used to hold information during the execution process
 // Can be reasigned 

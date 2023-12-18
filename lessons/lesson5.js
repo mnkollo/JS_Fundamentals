@@ -30,3 +30,14 @@ var footballFun = true
 
 var sportsFan = basketballFun || footballFun
 console.log("This person is a sports fan: " + sportsFan)
+
+
+let x = 5;
+let y = 10;
+
+// Using the logical "or" operator
+if (x > 0 || y > 0) {
+    console.log("At least one of x or y is greater than 0");
+} else {
+    console.log("Neither x nor y is greater than 0");
+}

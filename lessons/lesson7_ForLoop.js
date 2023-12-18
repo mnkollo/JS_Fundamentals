@@ -22,7 +22,7 @@ console.log("************")
 
 var players = ['Lebron','Kobe','Jordan']
 for(let i=0; i<players.length; i++){
-    console.log("Player: " + players[i] + i)
+    console.log("Player: " + players[i])
 }
 
 

@@ -1,5 +1,5 @@
 //objects
-// objects - is an intity that can hold multiple values at the same time
+// objects - is an entity that can hold multiple values at the same time
 // variables - can only hold one value at a time
 
 // objects - defined by curly braces and the information is stored in key value pairs
