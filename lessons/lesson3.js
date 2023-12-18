@@ -42,5 +42,55 @@ var cars = {
 }
 
 
+var arr = ['John',
+            'Bob', 
+            'Mary', 
+            10, 
+            true, 
+            [1,2,3],
+            function(name){   
+
+                return 'Hello ' + name;
+            }
+        ];  
+
+console.log(arr[6](arr[0]))
 
 
+var arr = new Array(1, 'John', false)     //array constructor - not used often
+console.log(arr)
+
+
+
+var colors = ['white', 'black', 'red']
+colors[1] = 'blue'
+console.log(colors)
+
+
+
+var colors = ['white', 'black', 'red']
+colors.push('blue')               //push - adds an item to the end of the array
+console.log(colors)
+
+
+var colors = ['white', 'black', 'red']
+colors.push()               //pop - removes an item from the end of the array
+console.log(colors)
+
+
+var colors = ['white', 'black', 'red']
+colors.shift()               //shift - removes an item from the beginning of the array
+console.log(colors)
+
+var colors = ['white', 'black', 'red']
+colors.unshift('purple')  //unshift - adds an item to the beginning of the array
+console.log(colors)        
+console.log(colors.indexOf('red'))      //indexOf - returns the index of the item in the array
+
+
+if(colors.indexOf('blue') === -1){
+
+    colors.push('blue')
+
+    console.log(colors)
+}   

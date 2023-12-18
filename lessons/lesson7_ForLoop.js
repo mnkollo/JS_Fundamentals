@@ -28,12 +28,12 @@ for(let i=0; i<players.length; i++){
 
 console.log('*****************')
 
-var cars = ["Volvo", "BMW", "Fiat"];   //iterator is i
+var cars = ["Volvo","break", "BMW", "Fiat"];   //iterator is i
 //for of loop
 for (let c of cars){
    console.log(c) 
    if(c === "BMW"){
-    break
+    break;
    }
 }
 
@@ -79,4 +79,35 @@ for (let i = 1; i <= 3; i++) {
     for (let j = 1; j <= 3; j++) {
         console.log(i, j);
     }
+}
+
+//****************************************************************************************/
+//initialization - var i = 0
+//Initialization refers to the process of setting the initial values of variables or parameters in a system or program before they are used
+
+
+var arr = ['John','Nick', 'Bob','Michael','Mary']
+
+for(var i = 0; i < arr.length; i++){
+   if(arr[i] === 'Bob'){
+    console.log(arr[i] + ' is my brother');
+    break;
+   }
+}
+
+
+var i = 0
+while (i <= 10){
+    
+    i++
+    console.log(i)
+}
+
+
+var colors = ['white', 'black', 'red', 'blue', 'green']
+var i = 0
+
+while(i < colors.length){
+    i++;
+    console.log(colors[i])
 }
