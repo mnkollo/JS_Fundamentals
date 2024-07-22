@@ -4,7 +4,10 @@ export function printAge(age){
 }
 
  class CustomerDetails{  
-
+    /**
+     * we expect this method to print the first name 
+     * @param {*} firstName 
+     */
     printFirstName(firstName){
         console.log("First Name: " + firstName);
     }

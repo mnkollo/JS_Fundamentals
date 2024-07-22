@@ -42,6 +42,7 @@ console.log("************")
 //ES6 syntax for each loop
 cars.forEach(car => {
     console.log(car)
+    
 })
 
 console.log("************")
