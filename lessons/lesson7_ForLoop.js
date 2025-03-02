@@ -26,13 +26,13 @@ for(let i=0; i<players.length; i++){
 }
 
 
-console.log('*****************')
+console.log('*****************Test')
 
-var cars = ["Volvo","break", "BMW", "Fiat"];   //iterator is i
+var cars = ["Volvo","Mercedes", "BMW", "Fiat"];   //iterator is i
 //for of loop
-for (let c of cars){
-   console.log(c) 
-   if(c === "BMW"){
+for (let car of cars){
+   console.log(car) 
+   if(car === "BMW"){   
     break;
    }
 }
@@ -42,7 +42,6 @@ console.log("************")
 //ES6 syntax for each loop
 cars.forEach(car => {
     console.log(car)
-    
 })
 
 console.log("************")

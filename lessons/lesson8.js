@@ -73,3 +73,21 @@ var luckyNumber = (num) => {
 }
 var myResult = luckyNumber(8);
 console.log(myResult);
+
+
+var hello = function(){
+    console.log('Hey Buddy')
+}
+hello();
+
+let navigateHome = () => {
+    console.log('Navigate Home')
+}
+navigateHome();
+
+function printName2( number){
+    let result = number * 2;
+    return result;
+}
+var myResult = printName2(5);
+console.log(myResult);

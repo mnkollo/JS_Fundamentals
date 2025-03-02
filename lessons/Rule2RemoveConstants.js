@@ -13,4 +13,4 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
         console.log('hi')
     }
 }
-//O(n/2 + 1)
+//O(n)
